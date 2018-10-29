@@ -12,6 +12,8 @@ class game {
     private $field_size;
     private $current_char = 'X';
     private $chars_to_win = 3;
+    public $player_x_name;
+    public $player_o_name;
 
     public function __construct($size){
         for($i = 0; $i < $size; $i++){
