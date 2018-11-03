@@ -1,6 +1,9 @@
-<?php require_once 'Cylinder.php';
-session_start(); ?>
+<?php
 
+require_once 'engine/Cylinder.php';
+session_start();
+
+echo <<<END
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,8 +11,7 @@ session_start(); ?>
     <title>Engine</title>
 </head>
 <body>
-
-     <?php
+END;
 
     ini_set('error_reporting', E_ALL);  //вывод ошибок в браузер
     ini_set('display_errors', 1);
@@ -36,15 +38,19 @@ session_start(); ?>
 
      $_SESSION['engine'] = $engine;
 
-    ?>
-
+echo <<<EOD
+     
      <br><br>
+     
      <form align="center" method="post" action="/engine_view.php">
+
 <!--        <input type="submit" name="cancel" value="Clear session">-->
         <input type="submit" name="next" value="Next cycle">
+
      </form>
 
      <br><br><a href="/">На главную</a>
 
 </body>
 </html>
+EOD;
