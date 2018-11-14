@@ -62,7 +62,6 @@ if(isset($_POST['new_game']))
              'player_o' => "$current_game->player_o_name"])->run();
     $res = $dbcontroller->select('game', ['*'])->last();
     $current_game->setGameId($res['id']);
-    //echo $current_game->getGameId();
 
 }
 elseif (isset($_SESSION['game']))
