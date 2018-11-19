@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a2ed287-85bb-4157-8a5e-8f21eee48e6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/battleship/battleship.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battleship.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleship/battleship.php" beforeDir="false" afterPath="$PROJECT_DIR$/battleship/battleship.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/battleship/game.php" beforeDir="false" afterPath="$PROJECT_DIR$/battleship/game.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleship/positioning.php" beforeDir="false" afterPath="$PROJECT_DIR$/battleship/placement.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/battleship/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/battleship/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -25,18 +25,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
+          <entry key="css" value="2" />
           <entry key="hphp" value="3" />
           <entry key="js" value="2" />
-          <entry key="php" value="20" />
+          <entry key="php" value="26" />
           <entry key="php5" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="2" />
           <entry key="JavaScript" value="2" />
-          <entry key="PHP" value="24" />
+          <entry key="PHP" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -44,8 +44,8 @@
           <entry key="css" value="73" />
           <entry key="dummy" value="1" />
           <entry key="hphp" value="114" />
-          <entry key="js" value="5667" />
-          <entry key="php" value="8786" />
+          <entry key="js" value="6644" />
+          <entry key="php" value="11091" />
           <entry key="txt" value="37" />
         </counts>
       </usages-collector>
@@ -53,8 +53,8 @@
         <counts>
           <entry key="CSS" value="73" />
           <entry key="HTML" value="45" />
-          <entry key="JavaScript" value="5667" />
-          <entry key="PHP" value="8855" />
+          <entry key="JavaScript" value="6644" />
+          <entry key="PHP" value="11160" />
           <entry key="PLAIN_TEXT" value="38" />
         </counts>
       </usages-collector>
@@ -76,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/battleship/game.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+            <state relative-caret-position="720">
+              <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -85,29 +85,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/battleship/battleship.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="570">
+              <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
               <folding>
                 <element signature="e#7#11#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/battleship/positioning.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="63" column="25" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/battleship/scripts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -121,13 +103,31 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/battleship/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="77" column="27" lean-forward="true" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ch</find>
-      <find>cons</find>
       <find>conso</find>
+      <find>json_array</find>
+      <find>rest</find>
+      <find>field</find>
+      <find>restore</find>
+      <find>restoreColor</find>
+      <find>cons</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,11 +145,12 @@
         <option value="$PROJECT_DIR$/tictac/style.css" />
         <option value="$PROJECT_DIR$/tictac/results.php" />
         <option value="$PROJECT_DIR$/tictac.php" />
-        <option value="$PROJECT_DIR$/battleship/game.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/battleship/positioning.php" />
         <option value="$PROJECT_DIR$/battleship.php" />
+        <option value="$PROJECT_DIR$/battleship/positioning.php" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/battleship/scripts.js" />
+        <option value="$PROJECT_DIR$/battleship/placement.php" />
+        <option value="$PROJECT_DIR$/battleship/game.php" />
         <option value="$PROJECT_DIR$/battleship/battleship.php" />
       </list>
     </option>
@@ -268,7 +269,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541145146836</updated>
-      <workItem from="1541145148445" duration="137839000" />
+      <workItem from="1541145148445" duration="164400000" />
     </task>
     <task id="LOCAL-00001" summary="Third commit">
       <created>1541257338346</created>
@@ -281,7 +282,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137839000" />
+    <option name="totallyTimeSpent" value="164400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1282" height="1000" extended-state="6" />
@@ -397,16 +398,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/battleship/game.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engine_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="429">
           <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -418,13 +412,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="67" column="84" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="84" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#3;n#!!top" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battleship/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battleship/placement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="52" selection-start-line="52" selection-end-line="59" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -435,24 +432,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/battleship/positioning.php">
+    <entry file="file://$PROJECT_DIR$/battleship/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="63" column="25" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="25" />
+        <state relative-caret-position="435">
+          <caret line="77" column="27" lean-forward="true" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/battleship/scripts.js">
+    <entry file="file://$PROJECT_DIR$/battleship/game.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="720">
+          <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/battleship/battleship.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="570">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
           <folding>
             <element signature="e#7#11#0#PHP" expanded="true" />
           </folding>

@@ -35,7 +35,7 @@ if(!empty($_GET) && key($_GET) != 'new_game')
     {
 
         for($i = 0; $i < $deck_number; $i++)
-        $current_game->users_field[$row + $i][$col] = 1;
+        $current_game->users_field[$row + $i][$col] = 's';
 
     }
 
@@ -44,7 +44,7 @@ if(!empty($_GET) && key($_GET) != 'new_game')
     {
 
         for($i = 0; $i < $deck_number; $i++)
-        $current_game->users_field[$row][$col + $i] = 1;
+        $current_game->users_field[$row][$col + $i] = 's';
 
     }
 
@@ -58,10 +58,10 @@ if(!empty($_GET) && key($_GET) != 'new_game')
 //            echo $current_game->users_field[$i][$j];
 //        }
 //    }
-
+if ($current_game->pre_field[0] == 0) $current_game->ai_field = $current_game->users_field;
 $_SESSION['game'] = $current_game;
 
-$json_array = json_encode($current_game->users_field);
+$field_for_placement = json_encode($current_game->users_field);
 
 
 echo '<br>';
@@ -78,14 +78,12 @@ echo '<br>';
 <?= '<body>' ?>
 
 <div align="center">
-<form method="post">
+
     <script>
-        var json_array = <?= $json_array ?>;
+        var field_for_placement = <?= $field_for_placement ?>;
         var deck_number = <?= $current_game->pre_field[0]?>;
         filling();
    </script>
-
-</form>
 
 </div>
 
